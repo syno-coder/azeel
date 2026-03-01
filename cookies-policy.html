@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cookie Policy | Azeel Technologies</title>
+
+<meta name="description"
+content="Cookie Policy explaining how Azeel Technologies uses cookies, analytics and advertising technologies and how you control your preferences.">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="scrolled">
+<div class="container nav-inner">
+<div class="logo-wrapper">
+<div class="logo-icon"><img src="azeel_logo.png" alt="Azeel Logo"></div>
+<div class="logo">Azeel Technologies</div>
+</div>
+
+<a href="index.html" class="btn btn-outline btn-sm">
+<i class="fas fa-arrow-left"></i> Back
+</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="legal-hero">
+<div class="container">
+<span class="tag">
+<i class="fas fa-cookie-bite"></i> Legal Document
+</span>
+
+<h1>Cookie Policy</h1>
+
+<p>
+This policy explains how we use cookies and similar tracking
+technologies to improve your experience and measure performance.
+</p>
+
+<div class="legal-meta">
+Effective: 1 march, 2026 • Updated: march 2026
+</div>
+
+</div>
+</section>
+
+<div class="container legal-layout">
+
+<!-- SIDEBAR -->
+<aside class="legal-sidebar">
+<div class="legal-card">
+<h4>Contents</h4>
+<div class="legal-nav">
+<a href="#what">What Are Cookies</a>
+<a href="#types">Cookie Types</a>
+<a href="#control">Your Controls</a>
+<a href="#third">Third Parties</a>
+<a href="#rights">Your Rights</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+</aside>
+
+<!-- MAIN -->
+<main>
+
+<section id="what" class="legal-section">
+<h2>1. What Are Cookies</h2>
+
+<p>
+Cookies are small text files stored on your device when you visit a website.
+They help websites remember preferences, improve performance, and measure usage.
+</p>
+
+<ul class="legal-list">
+<li>Remember settings and preferences</li>
+<li>Improve website functionality</li>
+<li>Analyse visitor behaviour</li>
+<li>Support advertising measurement</li>
+</ul>
+
+</section>
+
+<section id="types" class="legal-section">
+<h2>2. Types of Cookies We Use</h2>
+
+<div class="cookie-category">
+<h3>Strictly Necessary Cookies
+<span class="cookie-badge badge-required">Required</span>
+</h3>
+<p>Essential for security, navigation, and core website operation.</p>
+</div>
+
+<div class="cookie-category">
+<h3>Functional Cookies
+<span class="cookie-badge badge-optional">Optional</span>
+</h3>
+<p>Store preferences such as language or UI settings.</p>
+</div>
+
+<div class="cookie-category">
+<h3>Analytics Cookies
+<span class="cookie-badge badge-analytics">Analytics</span>
+</h3>
+<p>Used by Google Analytics to understand website usage.</p>
+</div>
+
+<div class="cookie-category">
+<h3>Marketing Cookies
+<span class="cookie-badge badge-marketing">Marketing</span>
+</h3>
+<p>Used by Google Ads and Meta Pixel for advertising performance.</p>
+</div>
+
+</section>
+
+<section id="control" class="legal-section">
+<h2>3. Your Cookie Controls</h2>
+
+<div class="cookie-control">
+
+<div class="cookie-row">
+<span>Necessary Cookies</span>
+<strong>Always Active</strong>
+</div>
+
+<div class="cookie-row">
+<span>Analytics Cookies</span>
+<div class="cookie-toggle" onclick="toggle(this,'analytics')"></div>
+</div>
+
+<div class="cookie-row">
+<span>Marketing Cookies</span>
+<div class="cookie-toggle" onclick="toggle(this,'marketing')"></div>
+</div>
+</div>
+</section>
+
+<section id="third" class="legal-section">
+<h2>4. Third-Party Services</h2>
+
+<ul class="legal-list">
+<li>Google Analytics — traffic analytics</li>
+<li>Google Ads — conversion tracking</li>
+<li>Meta Pixel — advertising optimisation</li>
+<li>Cloudflare — security and performance</li>
+</ul>
+</section>
+
+<section id="rights" class="legal-section">
+<h2>5. Your Rights</h2>
+
+<ul class="legal-list">
+<li>Accept or reject optional cookies</li>
+<li>Change preferences anytime</li>
+<li>Disable cookies via browser settings</li>
+<li>Request deletion of collected data</li>
+</ul>
+</section>
+
+<section id="contact" class="legal-section">
+<h2>6. Contact Us</h2>
+
+<p>
+Email: azeeltechnologies@gmail.com<br>
+Phone: +91 8579849414
+</p>
+</section>
+
+</main>
+</div>
+
+<!-- COOKIE BANNER -->
+<div class="cookie-banner" id="cookieBanner">
+<p>
+We use cookies to improve experience and measure performance.
+</p>
+
+<div>
+<button class="btn" onclick="acceptCookies()">Accept</button>
+<button class="btn btn-outline" onclick="rejectCookies()">Essential Only</button>
+</div>
+</div>
+
+<footer>
+<div class="container footer-bottom">
+<span>© 2026 Azeel Technologies. All rights reserved.</span>
+<span>
+<a href="privacy.html">Privacy</a> ·
+<a href="terms-of-service.html">Terms</a> ·
+<a href="cookies-policy.html">Cookies</a>
+</span>
+</div>
+</footer>
+
+<script>
+function toggle(el,type){
+  el.classList.toggle("active");
+  localStorage.setItem("cookie_"+type, el.classList.contains("active"));
+}
+
+function acceptCookies(){
+  localStorage.setItem("cookie_consent","all");
+  document.getElementById("cookieBanner").style.display="none";
+}
+
+function rejectCookies(){
+  localStorage.setItem("cookie_consent","essential");
+  document.getElementById("cookieBanner").style.display="none";
+}
+
+window.onload=function(){
+  if(!localStorage.getItem("cookie_consent")){
+    document.getElementById("cookieBanner").classList.add("show");
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Azeel Technologies | AI, IT Services & Digital Marketing Company</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<!-- CSS file-->
+<link rel="stylesheet" href="style.css" />
+
+<meta name="business:contact_data:country_name" content="India">
+<meta name="business:contact_data:email" content="azeeltechnologies@gmail.com">
+<meta name="business:contact_data:phone_number" content="+918579849414">
+
+</head>
+<body>
+
+<!-- SUCCESS MESSAGE -->
+<div class="success-message" id="successMessage">
+  <i class="fas fa-check-circle"></i>
+  <span>Message sent successfully! We'll be in touch soon.</span>
+</div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="container nav-inner">
+    <a href="#" class="logo-wrapper" onclick="scrollToTop(event)">
+      <div class="logo-icon"><img src="azeel_logo.png" alt="Azeel Logo"></div>
+      <span class="logo">Azeel Technologies</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#industries">Industries</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a href="#contact" class="btn btn-primary btn-sm">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU OVERLAY -->
+<div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-nav-links">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#process">Process</a>
+    <a href="#industries">Industries</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a href="#contact" class="btn btn-primary">Get Started</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-dots"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Innovative Digital Agency
+        </div>
+        <h1>We Build <span class="gradient-text">Remarkable</span> Digital Experiences</h1>
+        <p>Azeel Technologies transforms your vision into intelligent digital solutions with AI innovation, advanced IT expertise, and strategic marketing — empowering you to build, scale, and lead the digital future.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Let's Talk <i class="fas fa-arrow-right"></i></a>
+          <a href="#showcase" class="btn btn-outline">See Our Work</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="stat-num"><span class="counting" data-target="30">0</span>+</div>
+            <div class="stat-lbl">Projects Completed</div>
+          </div>
+          <div>
+            <div class="stat-num"><span class="counting" data-target="98">0</span>%</div>
+            <div class="stat-lbl">Client Satisfaction</div>
+          </div>
+          <div>
+            <div class="stat-num"><span class="counting" data-target="10">0</span>+</div>
+            <div class="stat-lbl">Team Experts</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-img-main">
+          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80&auto=format&fit=crop" alt="Expert team collaborating" loading="eager" />
+        </div>
+        <div class="float-card fc-1">
+          <div class="fc-icon">🏆</div>
+          <div>
+            <div class="fc-label">Client Success Rate</div>
+            <div class="fc-value">98% Satisfied</div>
+          </div>
+        </div>
+        <div class="float-card fc-2">
+          <div class="fc-icon">🚀</div>
+          <div>
+            <div class="fc-label">Live Projects</div>
+            <div class="fc-value">30+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker">
+    <span class="ticker-item">Web Development</span>
+    <span class="ticker-item">Mobile App Development</span>
+    <span class="ticker-item">UI/UX Design</span>
+    <span class="ticker-item">AI & Automation</span>
+    <span class="ticker-item">E-Commerce Solutions</span>
+    <span class="ticker-item">Content Creation</span>
+    <span class="ticker-item">AI-Driven SEO</span>
+    <span class="ticker-item">Google Ads Management</span>
+    <span class="ticker-item">Meta Ads Management</span>
+    <span class="ticker-item">Social Media Marketing</span>
+    <span class="ticker-item">Video Editing</span>
+    <span class="ticker-item">Performance Campaigns</span>
+    <span class="ticker-item">Web Development</span>
+    <span class="ticker-item">Mobile App Development</span>
+    <span class="ticker-item">UI/UX Design</span>
+    <span class="ticker-item">AI & Automation</span>
+    <span class="ticker-item">E-Commerce Solutions</span>
+    <span class="ticker-item">Content Creation</span>
+    <span class="ticker-item">AI-Driven SEO</span>
+    <span class="ticker-item">Google Ads Management</span>
+    <span class="ticker-item">Meta Ads Management</span>
+    <span class="ticker-item">Social Media Marketing</span>
+    <span class="ticker-item">Video Editing</span>
+    <span class="ticker-item">Performance Campaigns</span>
+  </div>
+</div>
+
+<!-- SHOWCASE -->
+<section class="showcase-section" id="showcase">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag"><i class="fas fa-star"></i> Our Work</span>
+      <h2>Transforming Ideas Into <span class="gradient-text">Digital Reality</span></h2>
+      <p>From concept to launch, we craft experiences that captivate audiences and drive measurable business growth for our clients.</p>
+    </div>
+
+    <div class="showcase-grid reveal">
+      <div class="sc-main">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&q=80&auto=format&fit=crop" alt="Enterprise software dashboard" loading="lazy" />
+        <div class="sc-overlay"></div>
+        <div class="sc-content">
+          <h3>Enterprise Software Solutions</h3>
+          <p>Scalable, high-performance platforms built for businesses that demand reliability, speed, and seamless user experience.</p>
+        </div>
+      </div>
+      <div class="sc-side">
+        <div class="sc-card">
+          <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80&auto=format&fit=crop" alt="Mobile app development" loading="lazy" />
+          <div class="sc-card-overlay"></div>
+          <div class="sc-card-content">
+            <h4>Mobile App Development</h4>
+            <p>Beautiful native experiences for iOS and Android.</p>
+          </div>
+        </div>
+        <div class="sc-card">
+          <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=600&q=80&auto=format&fit=crop" alt="Digital marketing" loading="lazy" />
+          <div class="sc-card-overlay"></div>
+          <div class="sc-card-content">
+            <h4>Digital Marketing Campaigns</h4>
+            <p>Data-driven strategies that grow your brand reach.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="showcase-stats">
+      <div class="sc-stat reveal reveal-delay-1">
+        <div class="num gradient-text"><span class="counting" data-target="30">0</span>+</div>
+        <div class="lbl">Projects Delivered</div>
+      </div>
+      <div class="sc-stat reveal reveal-delay-2">
+        <div class="num gradient-text"><span class="counting" data-target="95">0</span>%</div>
+        <div class="lbl">On-Time Delivery</div>
+      </div>
+      <div class="sc-stat reveal reveal-delay-3">
+        <div class="num gradient-text"><span class="counting" data-target="10">0</span>+</div>
+        <div class="lbl">Industries Served</div>
+      </div>
+      <div class="sc-stat reveal reveal-delay-4">
+        <div class="num gradient-text">4.5★</div>
+        <div class="lbl">Average Client Rating</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal">
+        <img class="about-img-main" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=700&q=80&auto=format&fit=crop" alt="Azeel Technologies team" loading="lazy" />
+        <div class="about-img-accent">
+          <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=200&q=80&auto=format&fit=crop" alt="Tech innovation" loading="lazy" />
+        </div>
+        <div class="about-badge-float">
+          <div class="ab-icon">🏆</div>
+          <div>
+            <div class="ab-val">Award-Winning</div>
+            <div class="ab-lbl">Digital Agency</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text reveal reveal-delay-2">
+        <span class="tag"><i class="fas fa-info-circle"></i> About Us</span>
+        <h2>Your Premier <span class="gradient-text">Full-Service</span> Digital Partner</h2>
+        <p>Azeel Technologies is a premier, full-service digital agency specialising in crafting custom digital solutions that blend stunning design, robust engineering, and strategic growth marketing.</p>
+        <p>Our mission is to empower businesses of every size — building powerful, scalable websites and innovative applications that elevate online presence and drive real, measurable results.</p>
+        <div class="about-list">
+          <div class="about-list-item">
+            <div class="check">✓</div>
+            <p><strong style="color:var(--text)">Custom-built solutions</strong> — no templates, no shortcuts; everything crafted precisely for you.</p>
+          </div>
+          <div class="about-list-item">
+            <div class="check">✓</div>
+            <p><strong style="color:var(--text)">Agile delivery</strong> — fast, iterative development with full transparency at every stage.</p>
+          </div>
+          <div class="about-list-item">
+            <div class="check">✓</div>
+            <p><strong style="color:var(--text)">Long-term partnership</strong> — we stay with you well beyond launch, growing alongside your business.</p>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-primary" style="margin-top:12px;">Work With Us <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services" style="background:var(--dark-2);">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag"><i class="fas fa-cogs"></i> Our Services</span>
+      <h2>Comprehensive Solutions For <span class="gradient-text">Every Goal</span></h2>
+      <p>From idea to market — Azeel Technologies covers every discipline your digital success demands.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <div class="svc-icon">🌐</div>
+        <h3>Website Development</h3>
+        <p>Fast, beautiful, conversion-optimised websites built for every screen size and every audience.</p>
+        <span class="svc-link">Learn More <i class="fas fa-arrow-right"></i></span>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="svc-icon">📱</div>
+        <h3>Mobile App Development</h3>
+        <p>Native and cross-platform apps for iOS and Android with fluid UX that keeps users coming back.</p>
+        <span class="svc-link">Learn More <i class="fas fa-arrow-right"></i></span>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="svc-icon">⚙️</div>
+        <h3>Software Development</h3>
+        <p>Bespoke software that automates operations, scales effortlessly, and delivers real-time business value.</p>
+        <span class="svc-link">Learn More <i class="fas fa-arrow-right"></i></span>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <div class="svc-icon">🔍</div>
+        <h3>Search Engine Optimisation</h3>
+        <p>A dedicated strategy improving every ranking factor to drive sustainable, high-quality organic visibility.</p>
+        <span class="svc-link">Learn More <i class="fas fa-arrow-right"></i></span>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="svc-icon">📣</div>
+        <h3>Digital Marketing</h3>
+        <p>Full-funnel digital campaigns that build brand authority and convert engaged audiences into loyal customers.</p>
+        <span class="svc-link">Learn More <i class="fas fa-arrow-right"></i></span>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="svc-icon">🤖</div>
+        <h3>AI Automation</h3>
+        <p>Intelligent automation that eliminates repetitive tasks and unlocks new efficiencies across your operations.</p>
+        <span class="svc-link">Learn More <i class="fas fa-arrow-right"></i></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag"><i class="fas fa-project-diagram"></i> How We Work</span>
+      <h2>Our <span class="gradient-text">Proven Process</span></h2>
+      <p>A structured, transparent plan that turns your project into a milestone achievement.</p>
+    </div>
+    <div class="process-grid">
+      <div class="process-item reveal reveal-delay-1">
+        <div class="process-num">01</div>
+        <h3>Discovery</h3>
+        <p>We deeply understand your business, its goals, target audience, and competitive landscape.</p>
+      </div>
+      <div class="process-item reveal reveal-delay-2">
+        <div class="process-num">02</div>
+        <h3>Strategy</h3>
+        <p>A comprehensive roadmap with detailed milestones, realistic timelines, and measurable KPIs.</p>
+      </div>
+      <div class="process-item reveal reveal-delay-3">
+        <div class="process-num">03</div>
+        <h3>Design</h3>
+        <p>User experiences crafted to be beautiful, intuitive, and worth returning to again and again.</p>
+      </div>
+      <div class="process-item reveal reveal-delay-1">
+        <div class="process-num">04</div>
+        <h3>Development</h3>
+        <p>Precision engineering with cutting-edge technologies — performance-first and built to scale.</p>
+      </div>
+      <div class="process-item reveal reveal-delay-2">
+        <div class="process-num">05</div>
+        <h3>Testing</h3>
+        <p>Rigorous QA across all devices and scenarios — flawless delivery is non-negotiable here.</p>
+      </div>
+      <div class="process-item reveal reveal-delay-3">
+        <div class="process-num">06</div>
+        <h3>Launch & Support</h3>
+        <p>Smooth deployment followed by ongoing maintenance, updates, and long-term growth partnership.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAND -->
+<div class="stats-band">
+  <div class="container">
+    <div class="stats-grid">
+      <div>
+        <div class="stat-num"><span class="counting" data-target="30">0</span>+</div>
+        <div class="stat-lbl">Projects Completed</div>
+      </div>
+      <div>
+        <div class="stat-num"><span class="counting" data-target="10">0</span>+</div>
+        <div class="stat-lbl">Team Experts</div>
+      </div>
+      <div>
+        <div class="stat-num"><span class="counting" data-target="98">0</span>%</div>
+        <div class="stat-lbl">Client Satisfaction</div>
+      </div>
+      <div>
+        <div class="stat-num"><span class="counting" data-target="95">0</span>%</div>
+        <div class="stat-lbl">Client Retention</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TICKER 2 -->
+<div class="ticker-wrap">
+  <div class="ticker">
+    <span class="ticker-item">Web Development</span>
+    <span class="ticker-item">Mobile App Development</span>
+    <span class="ticker-item">UI/UX Design</span>
+    <span class="ticker-item">AI & Automation</span>
+    <span class="ticker-item">E-Commerce Solutions</span>
+    <span class="ticker-item">Content Creation</span>
+    <span class="ticker-item">AI-Driven SEO</span>
+    <span class="ticker-item">Google Ads Management</span>
+    <span class="ticker-item">Meta Ads Management</span>
+    <span class="ticker-item">Social Media Marketing</span>
+    <span class="ticker-item">Video Editing</span>
+    <span class="ticker-item">Performance Campaigns</span>
+    <span class="ticker-item">Web Development</span>
+    <span class="ticker-item">Mobile App Development</span>
+    <span class="ticker-item">UI/UX Design</span>
+    <span class="ticker-item">AI & Automation</span>
+    <span class="ticker-item">E-Commerce Solutions</span>
+    <span class="ticker-item">Content Creation</span>
+    <span class="ticker-item">AI-Driven SEO</span>
+    <span class="ticker-item">Google Ads Management</span>
+    <span class="ticker-item">Meta Ads Management</span>
+    <span class="ticker-item">Social Media Marketing</span>
+    <span class="ticker-item">Video Editing</span>
+    <span class="ticker-item">Performance Campaigns</span>
+  </div>
+</div>
+
+<!-- INDUSTRIES -->
+<section class="section" id="industries" style="background:var(--dark-2);">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag"><i class="fas fa-industry"></i> Industries</span>
+      <h2>Verticals We <span class="gradient-text">Love to Serve</span></h2>
+      <p>Robust, tailored digital solutions across a diverse range of industries and sectors.</p>
+    </div>
+    <div class="industries-grid">
+      <div class="industry-tag reveal reveal-delay-1"><span class="icon">🏥</span>Healthcare</div>
+      <div class="industry-tag reveal reveal-delay-1"><span class="icon">💰</span>Finance</div>
+      <div class="industry-tag reveal reveal-delay-2"><span class="icon">🎓</span>Education</div>
+      <div class="industry-tag reveal reveal-delay-2"><span class="icon">🛍️</span>E-commerce</div>
+      <div class="industry-tag reveal reveal-delay-3"><span class="icon">🏭</span>Manufacturing</div>
+      <div class="industry-tag reveal reveal-delay-1"><span class="icon">🏠</span>Real Estate</div>
+      <div class="industry-tag reveal reveal-delay-2"><span class="icon">🚛</span>Logistics</div>
+      <div class="industry-tag reveal reveal-delay-3"><span class="icon">🛒</span>Retail</div>
+      <div class="industry-tag reveal reveal-delay-4"><span class="icon">🎬</span>Media & Entertainment</div>
+      <div class="industry-tag reveal reveal-delay-5"><span class="icon">🍽️</span>Hospitality</div>
+    </div>
+  </div>
+</section>
+
+<!-- testimonial add section -->
+<!-- CTA -->
+<section class="cta-band">
+  <div class="container reveal">
+    <span class="tag"><i class="fas fa-rocket"></i> Ready to Start?</span>
+    <h2>Let's Transform Your Business<br>With <span class="gradient-text">Technologies</span></h2>
+    <p>Book a free, no-obligation 30-minute strategy session with our expert team and discover exactly how Azeel Technologies can accelerate your growth.</p>
+    <div class="cta-actions">
+      <a href="#contact" class="btn btn-primary">Book Your Free Session <i class="fas fa-arrow-right"></i></a>
+      <a href="#services" class="btn btn-outline">Explore Services</a>
+    </div>
+    <p style="font-size:0.75rem;color:var(--text-muted);margin-top:18px;">No obligation · Expert advice · 30-minute session</p>
+  </div>
+</section>
+
+<!-- TICKER 3 -->
+<div class="ticker-wrap">
+  <div class="ticker">
+    <span class="ticker-item">Web Development</span>
+    <span class="ticker-item">Mobile App Development</span>
+    <span class="ticker-item">AI & Automation</span>
+    <span class="ticker-item">E-Commerce Solutions</span>
+    <span class="ticker-item">Content Creation</span>
+    <span class="ticker-item">AI-Driven SEO</span>
+    <span class="ticker-item">Google Ads Management</span>
+    <span class="ticker-item">Meta Ads Management</span>
+    <span class="ticker-item">Social Media Marketing</span>
+    <span class="ticker-item">Video Editing</span>
+    <span class="ticker-item">Performance Campaigns</span>
+    <span class="ticker-item">Web Development</span>
+    <span class="ticker-item">Mobile App Development</span>
+    <span class="ticker-item">AI & Automation</span>
+    <span class="ticker-item">E-Commerce Solutions</span>
+    <span class="ticker-item">Content Creation</span>
+    <span class="ticker-item">AI-Driven SEO</span>
+    <span class="ticker-item">Google Ads Management</span>
+    <span class="ticker-item">Meta Ads Management</span>
+    <span class="ticker-item">Social Media Marketing</span>
+    <span class="ticker-item">Video Editing</span>
+    <span class="ticker-item">Performance Campaigns</span>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section class="section" id="contact" style="background:var(--dark-2);">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag"><i class="fas fa-envelope"></i> Get In Touch</span>
+      <h2>Let's Build Something <span class="gradient-text">Remarkable Together</span></h2>
+      <p>Reach out and our team will respond within 24 hours to start your journey.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h2>We'd Love to<br><span class="gradient-text">Hear From You</span></h2>
+        <p>Whether you have a clear brief or just a spark of an idea — we're ready to listen, advise, and build something that exceeds your expectations.</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="ci-icon">📍</div>
+            <div class="ci-text"><strong>Headquarters</strong>Dobhi, Gaya Ji, Bihar, India</div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">💻</div>
+            <div class="ci-text"><strong>Development Centre</strong>IIIT Manipur, Boys Hostel, Imphal – 795002, Manipur, India</div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">📞</div>
+            <div class="ci-text"><strong>Phone</strong>+918579849414</div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">✉️</div>
+            <div class="ci-text"><strong>Email</strong>azeeltechnologies@gmail.com</div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="contact-form reveal reveal-delay-2">
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Full Name *</label>
+              <input type="text" name="name" placeholder="John Smith" required />
+            </div>
+            <div class="form-group">
+              <label>Email Address *</label>
+              <input type="email" name="email" placeholder="john@company.com" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" name="phone" placeholder="+91 00000 00000" />
+            </div>
+            <div class="form-group">
+              <label>Company Name</label>
+              <input type="text" name="company" placeholder="Your Company" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Service Required *</label>
+            <select name="service" required>
+              <option value="">Select a service…</option>
+              <option>Website Development</option>
+              <option>Mobile App Development</option>
+              <option>Video Editing</option>
+              <option>Digital Marketing</option>
+              <option>Search Engine Optimisation</option>
+              <option>AI Automation</option>
+              <option>Google Ads Management</option>
+              <option>Meta Ads Management</option>
+              <option>E-Commerce</option>
+              <option>Content Creation</option>
+              <option>Social Media Marketing</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Message *</label>
+            <textarea name="message" placeholder="Tell us about your project, goals, and timeline…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="sendBtn" style="width:100%;justify-content:center;">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo-wrapper">
+          <div class="logo-icon"><img src="azeel_logo.png" alt="Azeel Logo"></div>
+          <span class="logo" style="font-size:1.35rem;">Azeel Technologies</span>
+        </div>
+        <p>Transforming businesses through innovative digital solutions — web, software, AI, and marketing excellence since day one.</p>
+        <div class="social-links" style="margin-top:26px;">
+          <a href="https://www.instagram.com/azeel_technologies/" class="social-btn" aria-label="Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/alok-ran-jan/" class="social-btn" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://x.com/azeeltech" class="social-btn" aria-label="Twitter" target="_blank" rel="noopener">𝕏</a>
+          <a href="#" class="social-btn" aria-label="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#industries">Industries</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Mobile Apps</a></li>
+          <li><a href="#">Video Editing</a></li>
+          <li><a href="#">Content Creation</a></li>
+          <li><a href="#">Digital Marketing</a></li>
+          <li><a href="#">AI Automation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-service.html">Terms of Service</a></li>
+          <li><a href="cookies-policy.html">Cookie Policy</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Azeel Technologies. All rights reserved.</span>
+      <span>⭐ Built with excellence — trusted by businesses worldwide.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP BUTTON -->
+<a href="https://wa.me/918579849414?text=Hi%2C%20I%27m%20interested%20in%20your%20services"
+   class="whatsapp-btn"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- AI ASSISTANT BUTTON -->
+<div class="ai-assistant-btn" id="aiAssistantBtn" aria-label="AI Assistant">
+  <div class="ai-pulse"></div>
+  <i class="fas fa-robot"></i>
+</div>
+
+<!-- AI ASSISTANT-->
+<div class="ai-modal" id="aiModal">
+  <div class="ai-modal-header">
+    <div class="ai-modal-title">
+      <span class="ai-status"></span>
+      AI Assistant
+    </div>
+    <button class="ai-close" id="aiCloseBtn" aria-label="Close">
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
+  <div class="ai-modal-body">
+    <div class="ai-chat-messages" id="aiChatMessages">
+      <div class="ai-message bot">
+        👋 Hi! I'm your AI assistant. How can I help you today?
+      </div>
+    </div>
+    <div class="ai-quick-options">
+      <button class="ai-option-btn" onclick="selectOption('services')">
+        <i class="fas fa-cogs"></i> Tell me about your services
+      </button>
+      <button class="ai-option-btn" onclick="selectOption('pricing')">
+        <i class="fas fa-dollar-sign"></i> What are your pricing plans?
+      </button>
+      <button class="ai-option-btn" onclick="selectOption('portfolio')">
+        <i class="fas fa-briefcase"></i> Show me your portfolio
+      </button>
+      <button class="ai-option-btn" onclick="selectOption('contact')">
+        <i class="fas fa-envelope"></i> How can I get in touch?
+      </button>
+    </div>
+  </div>
+  <div class="ai-modal-footer">
+    <div class="ai-input-wrapper">
+      <input type="text" class="ai-input" id="aiInput" placeholder="Type your message..." />
+      <button class="ai-send-btn" id="aiSendBtn" aria-label="Send">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- EmailJS SDK-->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
